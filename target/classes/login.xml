@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD  
+ Struts Configuration 2.1//EN"   
+ "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+<package name="abc" extends="struts-default">  
+  
+<action name="AdminLogin">  
+<result name="success">LoginSuccess.jsp</result>  
+<result name="error">loginerror.jsp</result>
+</action>  
+<action name="EmployeeRegister">
+<result name="success">EmployeeRegister.jsp</result>
+</action>
+<action name="EmployeeLoginDao">  
+<result name="success">EmployeeLoginSuccess.jsp</result>  
+<result name="error">loginerror.jsp</result>
+</action>  
+<action name="Register">
+<result name="success">RegisterSuccess.jsp</result>
+</action>
+</package>  
+</struts>      
